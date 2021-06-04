@@ -1,5 +1,10 @@
 # Diccionario de las tareas de TheEgg AI
 
+## github
+
+Servicio propietario que ofrece la posibilidad de crear repositorios
+de control de versiones usando el software `git`.
+
 ## inteligencia-artificial
 
 Se dice que las máquinas que poseen *inteligencia artificial* son
@@ -19,6 +24,11 @@ una tarea.
 ## puertas-lógicas
 
 Conjunto de transistores que permite realizar operaciones lógica.
+
+## repositorio de control de versiones
+
+Es un sistema para de almacenamiento e intercambio de código que
+permite guardar de forma eficientemente distintas versiones de ficheros.
 
 ## transistor
 
