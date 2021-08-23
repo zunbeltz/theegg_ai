@@ -5,46 +5,46 @@
 """
 
 
-def dtob_recurse(decimal: int) -> str:
+def itob_recurse(integer: int) -> str:
     """
-    Convert decimal number to a binary string representation.
+    Convert integer number to a binary string representation.
 
     This funcition recursevely calculated the division by 2 of the mumber.
     This remainder will be the lat bit value. We keep calculating
     recursevely with the quotient.
     Args:
-        decimal (int): Number to be converted.
+        integer (int): Number to be converted.
     Returns:
-        str: binary representation of decimal
+        str: binary representation of integer
     """
-    if decimal == 0:
+    if integer == 0:
         return "0"
-    if decimal == 1:
+    if integer == 1:
         return "1"
-    quotient, remainder = divmod(decimal, 2)
-    return dtob_recurse(quotient) + str(remainder)
+    quotient, remainder = divmod(integer, 2)
+    return itob_recurse(quotient) + str(remainder)
 
 
-def dtob_iterative(decimal: int) -> str:
+def itob_iterative(integer: int) -> str:
     """
-    Convert decimal number to a binary string representation.
+    Convert integer number to a binary string representation.
 
     This funcition recursevely calculated the division by 2 of the mumber.
     This remainder will be the lat bit value. We keep calculating
     recursevely with the quotient.
     Args:
-        decimal (int): Number to be converted.
+        integer (int): Number to be converted.
     Returns:
-        str: binary representation of decimal
+        str: binary representation of integer
     """
     bit_string = ""
-    while decimal > 1:
-        quotient, remainder = divmod(decimal, 2)
+    while integer > 1:
+        quotient, remainder = divmod(integer, 2)
         bit_string = str(remainder)+ bit_string
-        decimal = quotient
-    if decimal == 1:
+        integer = quotient
+    if integer == 1:
         bit_string = "1" + bit_string
-    if decimal == 0:
+    if integer == 0:
         bit_string = "0" + bit_string
     return bit_string
 
