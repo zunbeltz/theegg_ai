@@ -5,6 +5,12 @@
 
 Es el álgebra que puede aplicarse a los sistema binarios.
 
+## bucles en programación
+
+Los bucles son estructuras de control de flujo dentro de un programa
+en el que una o varias sentencias se repiten si se cumple cierta
+condición.
+
 ## convertidor-analógico-digital
 Sistema que convierte una señal analógica a digital. Primero samplea la señal a una 
 frecuencia dada. Después discretiza los valores con una resolución dada. 
@@ -14,6 +20,11 @@ Y por ultimo, convierte estos valores discretos a una representación binaria.
 Programa que convierte código en un lenguaje de programación a
 lenguaje de máquina que puede ser interpretado directamente por un
 ordenador.
+
+## diagrama de-flujo
+Representación gráfica, mediante símbolos estandarizados y flechas, de
+un algoritmo o programa.
+
 
 ## editor de código
 Editor de texto desarrollada con funciones para facilitar el
@@ -76,9 +87,8 @@ Es un circuito eléctrico que permite obtener una señal digital.
 Es un elemento de los circuitos eléctricos que permite convertir una señal analógica a 0, 1 o amplificarla.
 Consta de 3 terminales: dos polos y una base. Es el elemento central de la electrónica.
 
-
-
 ## turing 
 
 Apellido de Alan Turing; matemático británico y uno de los padres de
 la computación teórica moderna.
+
